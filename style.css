@@ -1,0 +1,22 @@
+#hero-banner {
+    background-image: url(/img/bg2.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.hero-heading {
+    margin: 200px auto 0px auto;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 5rem;
+}s
+
+.hero-subheading {
+    margin: 0px auto 200px auto;
+    font-family: 'Montserrat-Black', sans-serif;
+    
+}
