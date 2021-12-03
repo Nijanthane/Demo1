@@ -4,6 +4,7 @@
     height: 500px;
     width: 100%;
     position: relative;
+    filter: blur(0px);
 }
 
 #carouselmain::after {
@@ -15,6 +16,7 @@
     height: 500px;
     background-image: linear-gradient(120deg, #eaee44, #33d0ff);
     opacity: .7;
+    filter: blur(5%);
 }
 
 .hero-banner::after {
@@ -136,6 +138,7 @@ transform: translateY(-60%);
     display: inline-block;
     font-family: 'Montserrat-Black', sans-serif;
     font-weight: bold;
+    padding: 0 20px;
   }
   
   .nav-item::after {
@@ -154,10 +157,37 @@ transform: translateY(-60%);
     width: 100%;
   }
   
-
+  .sayhi{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+    vertical-align: baseline;
+    text-align: center;
+    position: relative;
+    top: 200px;
+  }
+  
+  
 
 .carousel-caption p{
     font-size: 2rem;
     font-family: 'Montserrat-Black', sans-serif;
     margin-top: -5px;
+}
+
+.alert-bar {
+	background: linear-gradient(90deg, rgba(207, 255, 0, 0.6842087176667542) 0%, rgba(0, 212, 255, 0.6674019949776786) 100%);
+	color: #fff;
+	width: 100%;
+	padding: 15px;
+	font-size: 16px;
+	text-align: center;
+    font-family: 'Montserrat-Black', sans-serif;
+	font-weight: bold;
+	
+}
+
+.alert-bar a {
+	color: #fff;
+  text-decoration: underline;
+  font-weight: 400;
 }
