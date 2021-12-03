@@ -1,8 +1,28 @@
-#hero-banner {
+.hero-banner {
     background-image: url(img/bg2.jpg);
     background-size: cover;
     height: 500px;
     width: 100%;
+    position: relative;
+}
+
+.hero-banner::after {
+    content: "👋";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    opacity: .7;
+}
+
+.hero-banner::after {
+    z-index: 0;
+}
+
+.textbox {
+    z-index: 99999;
 }
 
 .center-txt {
@@ -13,10 +33,47 @@
     margin: 200px auto 0px auto;
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 5rem;
-}s
+    color: #fff;
+}
+
+.hero-heading::after {
+    content: "👋";
+}
 
 .hero-subheading {
     margin: 0px auto 200px auto;
     font-family: 'Montserrat-Black', sans-serif;
-    
+    color: #fff;
+}
+
+.box-content {
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+    padding: 20px 10px;
+    border-radius: 1%;
+}
+
+.box-content:hover {
+    color: #fff;
+    background: rgb(207, 255, 0);
+    background: linear-gradient(90deg, rgba(207, 255, 0, 0.6842087176667542) 0%, rgba(0, 212, 255, 0.6674019949776786) 100%);
+    text-align: center;
+    margin: 20px 10px 20px 10px;
+    padding: 20px 10px;
+    border-radius: 1%;
+    transition: 0.2s;
+}
+
+.box-content {
+    font-family: 'Montserrat-Black', sans-serif;
+
+}
+
+.features .p {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.boxicon {
+    padding-bottom: 15px;
 }
