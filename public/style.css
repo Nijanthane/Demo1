@@ -191,3 +191,53 @@ transform: translateY(-60%);
   text-decoration: underline;
   font-weight: 400;
 }
+
+.hisize{
+    font-size: 5rem;
+}
+
+#testi{
+    background: linear-gradient(90deg, rgba(207, 255, 0, 0.6842087176667542) 0%, rgba(0, 212, 255, 0.6674019949776786) 100%);
+}
+
+#testcar img{
+    width: 200px !important;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.testi{
+    text-align: center;
+}
+
+.col-lg-3.testcol {
+    padding: 0;
+    margin: 0px;
+}
+
+.col-lg-9.testcol{
+    padding: 10px 0 0 0;
+}
+
+.testim{
+    text-align: center;
+}
+
+.testicont{
+    padding: 5px 30px 35px 0;
+}
+
+.testiheading{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.carousel-item{
+    padding: 100px 100px;
+}
+
+.carousel-item .reviewer{
+    height: 250px !important;
+    width: 250px !important;
+    border-radius: 50%;
+}
