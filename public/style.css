@@ -241,3 +241,27 @@ transform: translateY(-60%);
     width: 250px !important;
     border-radius: 50%;
 }
+
+img.reviewer {
+    height: 250px !important;
+    width: 250px !important;
+    border-radius: 50%;
+}
+
+/* Flex */
+
+.flexx{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 2%;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
